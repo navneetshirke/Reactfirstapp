@@ -16,9 +16,9 @@ import Admin_list from "./Component/Admin/admin_list"
 
 function AdminRoutes(props) {
   return (
-    
-    <div className="d-flex flex-column flex-root">
-    <div className="d-flex flex-row flex-column-fluid page">
+    <>
+    // <div className="d-flex flex-column flex-root">
+    // <div className="d-flex flex-row flex-column-fluid page">
 
         <Sidebar />
         <Routes>
@@ -36,8 +36,9 @@ function AdminRoutes(props) {
           <Route path="/admin/city_list" element={<City_list />} />
         </Routes>
         
-      </div>
-    </div>
+    //   </div>
+    // </div>
+        </>
   );
 }
 

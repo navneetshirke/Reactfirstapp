@@ -23,50 +23,6 @@ export default function admin_sidebar(props) {
 
   return (
     <>
-          <nav className="main-menu">
-      <div className="aside aside-left  aside-fixed  d-flex flex-column flex-row-auto" id="kt_aside">
-
-        <div className="brand flex-column-auto " id="kt_brand" kt-hidden-height={119}>
-          <a href="/" className="brand-logo">
-            <img alt="Logo" className="w-35px" src={image} />
-          </a>
-        </div>
-
-
-        <div className="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
-          <div id="kt_aside_menu" className="aside-menu" data-menu-vertical={1} data-menu-scroll={1} data-menu-dropdown-timeout={500} style={{ height: '491px', overflowY: "scroll" }}>
-            <ul className="menu-nav text-center">
-              {datas.map((data, index) =>
-                <li className="" aria-haspopup="true" key={index} data-toggle="tooltip" title={data.link_name} >
-                  <Link to={data.url} className="menu-link ">
-                    <i className={data.icon} />
-                    <span className="text-white mr-1 ml-4"> {data.link_name} </span>
-                  </Link>
-                </li>
-              )}
-            </ul>
-          </div>
-        </div>
-      </div>
-      </nav>
-
-      {/*<div>
-  <nav className="main-menu">
-    <ul>
-        { datas.map( (data, index ) => 
-      <li  key={index}>
-        <Link to={data.url}>
-          <FontAwesomeIcon icon={faHome} />
-          <span className="nav-text">
-            {data.link_name}
-          </span>
-        </Link>
-      </li>
-        )}
-    </ul>
-  </nav>
-</div>
-*/}
 
     </>
   );

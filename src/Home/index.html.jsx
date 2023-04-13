@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from "./homepage/index_header";
 
-import ".././assets/vendor/aos/aos.css"
-import ".././assets/vendor/bootstrap/css/bootstrap.min.css"
-import ".././assets/vendor/bootstrap-icons/bootstrap-icons.css"
-import ".././assets/vendor/boxicons/css/boxicons.min.css"
-import ".././assets/vendor/glightbox/css/glightbox.min.css"
-import ".././assets/vendor/remixicon/remixicon.css"
-import ".././assets/vendor/swiper/swiper-bundle.min.css"
-import ".././assets/css/style.css"
+import "./homepage/assets/vendor/aos/aos.css"
+import "./homepage/assets/vendor/bootstrap/css/bootstrap.min.css"
+import "./homepage/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+import "./homepage/assets/vendor/boxicons/css/boxicons.min.css"
+import "./homepage/assets/vendor/glightbox/css/glightbox.min.css"
+import "./homepage/assets/vendor/remixicon/remixicon.css"
+import "./homepage/assets/vendor/swiper/swiper-bundle.min.css"
+import "./homepage/assets/vendor/style.css"
 
 export default function index() {
 console.log("index")

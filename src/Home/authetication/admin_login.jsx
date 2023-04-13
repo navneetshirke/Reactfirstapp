@@ -23,7 +23,6 @@ export default function AdminLogin() {
 
   }
 
-
   return (
     <div>
       <div className="d-flex flex-column flex-root">

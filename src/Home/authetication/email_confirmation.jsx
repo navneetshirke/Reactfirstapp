@@ -1,0 +1,23 @@
+import React from 'react';
+
+function email_confirmation() {
+  return (
+      <div className="login-form animate__animated animate__backInRight animate__delay-20ms"  id="login-confirmation">
+        <div className="mt-7 text-center">
+          <h3 className="font-weight-bolder text-dark font-size-h2 font-size-h2-lg">Resend confirmation instructions ?</h3>
+        </div>
+        <form className="form fv-plugins-bootstrap fv-plugins-framework" noValidate="novalidate" id="kt_login_confirmation_form">
+          <div className="form-group fv-plugins-icon-container">
+            <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="email" placeholder="Email" name="email" autoComplete="off" />
+            <div className="fv-plugins-message-container" /></div>
+          <div className="form-group d-flex flex-wrap pb-lg-0">
+            <button type="button" id="kt_login_confirmation_submit" className="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-4">Submit</button>
+            <button type="button" id="kt_login_confirmation_cancel" className="btn btn-light-primary font-weight-bolder font-size-h6 px-8 py-4 my-3">Cancel</button>
+          </div>
+          <div />
+        </form>
+      </div>
+      );
+}
+
+      export default email_confirmation;

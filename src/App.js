@@ -1,6 +1,6 @@
 import { Routes, Route, redirect } from "react-router-dom"
 
-import Index from "./Home/index.html"
+import Index from "./Home/index"
 import Program from "./Home/homepage/program"
 import Faq from "./Home/homepage/faq"
 
@@ -13,23 +13,23 @@ import AdminRoutes from "./AdminRoutes"
 
 
 function App() {
-  
+	
 	const adminlogin = true
 	
 	return (
-				<>
-			<Routes>
-				<Route path="/" element={<Index />} />
-				<Route path="/visiter/program" element={<Program />} />
-				<Route path="/visiter/faq" element={<Faq />} />
-				<Route path="/admin/login" element={<AdminLogin />} />
-				<Route path="/login" element={<Login />} />
-			</Routes>
+		<>
+		<Routes>
+		<Route path="/" element={<Index />} />
+		<Route path="/visiter/program" element={<Program />} />
+		<Route path="/visiter/faq" element={<Faq />} />
+		<Route path="/admin/login" element={<AdminLogin />} />
+		<Route path="/login" element={<Login />} />
+		</Routes>
 
-				{ adminlogin &&  <AdminRoutes/> }
+		{ adminlogin &&  <AdminRoutes/> }
 
-				</>
-	);
-}
+		</>
+		);
+	}
 
-export default App;
+	export default App;

@@ -2,7 +2,7 @@ import React from 'react';
 
 function singup() {
   return (
-    <div id="user_signp_form" className="animate__animated animate__backInRight animate__delay-20ms" >
+    <div id="user_signp_form" className="animate__animated animate__backInRight animate__delay-20ms pt-5" >
       
       <div className="mt-7 text-center">
           <h3 className="font-weight-bolder text-dark font-size-h2 font-size-h2-lg">User Sign Up</h3>
@@ -12,21 +12,21 @@ function singup() {
       
        <div className="form-group fv-plugins-icon-container row">
           <div className='col-md-6'>
-            <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="text" placeholder="Fullname" name="fullname" autoComplete="off" />
+            <input className="form-control form-control-solid h-auto py-4 px-4 rounded-lg font-size-h6" type="text" placeholder="Fullname" name="fullname" autoComplete="off" />
           </div>
           <div className='col-md-6'>
-            <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="text" placeholder="Mobile Number" name="mobile_number" autoComplete="off" />
+            <input className="form-control form-control-solid h-auto py-4 px-4 rounded-lg font-size-h6" type="text" placeholder="Mobile Number" name="mobile_number" autoComplete="off" />
           </div>
         </div>
         <div className="form-group fv-plugins-icon-container">
-          <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="emmail" placeholder="Email" name="email" autoComplete="off" />
+          <input className="form-control form-control-solid h-auto py-4 px-4 rounded-lg font-size-h6" type="emmail" placeholder="Email" name="email" autoComplete="off" />
         </div>
         <div className="form-group fv-plugins-icon-container row">
           <div className='col-md-6'>
-            <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="text" placeholder="Password" name="password" autoComplete="off" />
+            <input className="form-control form-control-solid h-auto py-4 px-4 rounded-lg font-size-h6" type="text" placeholder="Password" name="password" autoComplete="off" />
           </div>
           <div className='col-md-6'>
-            <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="text" placeholder="Confirm Password" name="confirm_assword" autoComplete="off" />
+            <input className="form-control form-control-solid h-auto py-4 px-4 rounded-lg font-size-h6" type="text" placeholder="Confirm Password" name="confirm_assword" autoComplete="off" />
           </div>
         </div>
         <div className="form-group fv-plugins-icon-container">
@@ -37,8 +37,8 @@ function singup() {
           </label>
           <div className="fv-plugins-message-container" /></div>
         <div className="form-group d-flex flex-wrap pb-lg-0 pb-3">
-          <button type="button" id="kt_login_signup_submit" className="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-4">Submit</button>
-          <button type="button" id="kt_login_signup_cancel" className="btn btn-light-primary font-weight-bolder font-size-h6 px-8 py-4 my-3">Cancel</button>
+          <button type="button" id="kt_login_signup_submit" className="btn btn-primary font-weight-bolder font-size-h6 px-16 py-4 my-3 mr-3 rounded-login">Submit</button>
+          <button type="button" id="kt_login_signup_cancel" className="btn btn-light-primary font-weight-bolder font-size-h6 px-16 py-4 my-3 mr-3 rounded-login">Cancel</button>
         </div>
         <div />
       </form>

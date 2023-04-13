@@ -19,12 +19,11 @@ export default function admin_sidebar(props) {
     { url: "/admin/region_list", link_name: "Regions", icon: "menu-icon text-white fas fa-cookie icon-2x mb-5 ml-2 mt-1 mr-2 text-center"},
     { url: "/admin/plan_list", link_name: "Plans", icon: "menu-icon text-white fas fa-asterisk icon-2x mb-5 ml-2 mt-1 mr-2 text-center"},
     { url: "/admin/city_list", link_name: "City", icon: "menu-icon text-white fas fa-window-maximize icon-2x mb-5 ml-2 mt-1 mr-2 text-center"},
-  ]
+    ]
 
   return (
     <>
-
     </>
-  );
+    );
 }
 

@@ -1,4 +1,4 @@
-.login.login-1 .login-aside .aside-img {
+/*.login.login-1 .login-aside .aside-img {
   min-height: 450px;
 }
 
@@ -56,4 +56,40 @@
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
+}
+*/
+
+#login-form {
+ width: 40%;
+ height: 1%;
+}
+
+
+.rounded-login {
+  border-radius: 2.52rem!important
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.newlogin_header{
+ background-image: linear-gradient(to right, #FC466B , #3F5EFB);
+ min-height: 636px;
+}
+
+.newlogin_header-header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+ #login-form {
+   width: 100%;
+   height: 1%;
+ }
+
 }

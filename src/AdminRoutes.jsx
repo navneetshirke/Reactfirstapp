@@ -16,10 +16,10 @@ import Admin_list from "./Component/Admin/admin_list"
 
 function AdminRoutes(props) {
   return (
-    <>
-    // <div className="d-flex flex-column flex-root">
-    // <div className="d-flex flex-row flex-column-fluid page">
+    //<div className="d-flex flex-column flex-root">
+    //<div className="d-flex flex-row flex-column-fluid page">
 
+    <>
         <Sidebar />
         <Routes>
           <Route path="/admin/dashboard" element={<Dashboard />} />
@@ -35,10 +35,10 @@ function AdminRoutes(props) {
           <Route path="/admin/plan_list" element={<Plan_list />} />
           <Route path="/admin/city_list" element={<City_list />} />
         </Routes>
+    </>
         
     //   </div>
     // </div>
-        </>
   );
 }
 
